@@ -1,0 +1,41 @@
+body {
+  background: cornsilk;
+}
+.prev, .next, .prev_year, .next_year {
+    background-color: #CCC;
+    border-radius: 2px;
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+}
+.prev:hover,.next:hover,.prev_year:hover,.next_year:hover,.iconButton:hover {
+    background-color:gray;
+    color: red;
+}
+.switchCalendar, .switchMonth, .switchYear , .dt:hover , .calendar_data td:first-child:hover {
+    background-color: rgb(255, 80, 80);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    height: 25px;
+    width: 25px;
+}
+td, th {
+    text-align: center;
+    height: 25px;
+    width: 25px;
+}
+.jQCompleteCalendar {
+    background-color: rgb(238, 238, 238);
+}
+.jQCalendar {
+    border: 1.5px solid gray;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px rgb(42, 28, 28);
+}
+.dropdownMenu{
+    /*display: none;*/
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 50px;
+    z-index: 100;
+}
